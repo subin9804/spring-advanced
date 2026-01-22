@@ -1,6 +1,6 @@
-g05:17:07.421 [Test worker] INFO hello.advanced.trace.threadlocal.ThreadLocalServiceTest -- main start
-~05:17:07.442 [thread-A] INFO hello.advanced.trace.threadlocal.code.ThreadLocalService -- 저장 name=userA -> nameStore=null
-q05:17:08.449 [thread-A] INFO hello.advanced.trace.threadlocal.code.ThreadLocalService -- 조회 nameStore=userA
-~05:17:09.450 [thread-B] INFO hello.advanced.trace.threadlocal.code.ThreadLocalService -- 저장 name=userB -> nameStore=null
-q05:17:10.461 [thread-B] INFO hello.advanced.trace.threadlocal.code.ThreadLocalService -- 조회 nameStore=userB
-f05:17:11.463 [Test worker] INFO hello.advanced.trace.threadlocal.ThreadLocalServiceTest -- main exit
+�00:49:39.874 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest -- 클래스 이름1=class hello.advanced.trace.template.TemplateMethodTest$1
+q00:49:39.890 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest -- 비즈니스 로직1 실행
+e00:49:39.890 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate -- resultTime=0
+�00:49:39.890 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest -- 클래스 이름2=class hello.advanced.trace.template.TemplateMethodTest$2
+q00:49:39.890 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest -- 비즈니스 로직2 실행
+e00:49:39.890 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate -- resultTime=0

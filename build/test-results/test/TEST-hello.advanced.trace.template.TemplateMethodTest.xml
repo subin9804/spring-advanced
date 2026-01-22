@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.advanced.trace.template.TemplateMethodTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-01-19T15:49:39.854Z" hostname="DESKTOP-VODBLFV" time="0.042">
+  <properties/>
+  <testcase name="templateMethodV2()" classname="hello.advanced.trace.template.TemplateMethodTest" time="0.042"/>
+  <system-out><![CDATA[00:49:39.874 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest -- 클래스 이름1=class hello.advanced.trace.template.TemplateMethodTest$1
+00:49:39.890 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest -- 비즈니스 로직1 실행
+00:49:39.890 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate -- resultTime=0
+00:49:39.890 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest -- 클래스 이름2=class hello.advanced.trace.template.TemplateMethodTest$2
+00:49:39.890 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest -- 비즈니스 로직2 실행
+00:49:39.890 [Test worker] INFO hello.advanced.trace.template.code.AbstractTemplate -- resultTime=0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
